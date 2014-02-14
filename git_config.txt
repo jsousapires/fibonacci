@@ -1,0 +1,54 @@
+https://sourcegear.com/diffmerge/webhelp/sec__git__linux.html
+
+git config --global diff.tool diffmerge
+git config --global difftool.diffmerge.cmd "/usr/bin/diffmerge \"\$LOCAL\" \"\$REMOTE\""
+
+git config --global merge.tool diffmerge
+git config --global mergetool.diffmerge.trustExitCode true
+git config --global mergetool.diffmerge.cmd "/usr/bin/diffmerge --merge --result=\"\$MERGED\" \"\$LOCAL\" \"\$BASE\" \"\$REMOTE\""
+	  
+cat ~/.gitconfig
+
+?ssh-keygen -C “jpires@tre-to.jus.br” -t rsa
+
+conteudo .pub
+
+git init -- inicia repositório
+
+git remote add origin https://github.com/jsousapires/pm87-tre-to.git
+
+Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jsousapires/pm87-tre-to.git
+git push -u origin master
+
+Push an existing repository from the command line
+
+git remote add origin https://github.com/jsousapires/pm87-tre-to.git
+git push -u origin master
+
+---------------------
+
+git clone https://github.com/caelum/agiletickets.git
+
+--------------------
+projeto agile tickets
+ant resolve
+
+---------------------
+
+git remote add origin https://github.com/jsousapires/fibonacci.git
+git add .
+git commit - m “Mensagem”
+git push origin master
+git pull https://github.com/jsousapires/fibonacci.git
+git status
+
+
+---------------
+
+git reset - volta ao commit informado
